@@ -1,0 +1,41 @@
+<!DOCTYPE html>    
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Find the Odd One Out</title>
+        <meta name="description" content="Find the Odd One Out game">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <script defer src="index.js"></script>
+    </head>
+	<body>
+		<header class="card-header">
+			<div class="progress">
+				<h2 id="question-number">1/3</h2>
+			</div>
+			<div class="counter">
+				<h2 id="time">5</h2>
+			</div> 
+		</header>
+		<main>              		   
+			<section class="find-gallery">
+				<figure id="bird-image" class="photo challenge-photo">
+					<img src="pho/birds.jpg" alt="birds on a rock"/>
+					<button id="hidden-birdDiv" class="hidden-divBird"></button>
+				</figure>
+				<figure id="duck-image" class="hide photo challenge-photo">
+					<img src="pho/ducks.jpg" alt="ducks in water"/>
+					<button id="hidden" class="hidden-divDuck"></button>
+				</figure>
+				<figure id="sheep-image" class="hide photo challenge-photo">
+					<img src="pho/sheep.jpg" alt="sheep on a field"/>
+					<button id="hidden-sheep" class="hidden-divSheep"></button>
+				</figure>
+			</section>		
+			<div class="center-button">
+				<button id="show" class="show-button">Show answer</button>
+			</div>
+		</main>	
+		<footer></footer>
+	</body>
+</html>

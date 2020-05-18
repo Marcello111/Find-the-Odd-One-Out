@@ -1,0 +1,15 @@
+.card-header {
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+}
+
+.main-footer {
+	text-align: center;
+}
+
+.attr {
+	font-size: 9px;
+	color: grey;
+	margin: 0px;
+}

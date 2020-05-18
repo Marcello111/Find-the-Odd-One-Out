@@ -1,0 +1,30 @@
+@media only screen and (max-width: 500px) {
+    h1, h2, p { font-size: smaller; }
+    h2.text-rules { font-size: smaller; padding: 1px; }
+    p.text { margin: 1px; padding: 1px; font-size: 10px;}
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.text-rules {
+    font-size: 23px;
+    margin: 20px 20px 30px 20px;
+}
+
+.progress {
+    margin-left: 50px;
+    font-family: "Open Sans", arial, sans-serif;
+}
+
+.counter {
+    margin-right: 50px;
+    font-family: "Open Sans", arial, sans-serif;
+}
+
+.text {
+    color: rgb(51, 81, 87);
+    padding: 0px 20px;
+}

@@ -1,0 +1,51 @@
+@media only screen and (max-width: 500px) {
+    section img { width: 100%; }
+    .resolution { padding: 0px; }
+}
+
+body {
+    max-width: 1100px;
+    margin: 10px auto;
+    background-color: #ECEBF0;
+}
+
+.challenge-photo {
+    position: relative;
+}
+
+.find-gallery {
+    width: 72%;
+    margin: 10px auto;
+}
+
+.photo img {
+    width: 100%;
+    border-radius: 2%;
+}
+
+.main-picture-div {
+    display: flex;
+	justify-content: center;
+    width: 80%;
+    margin: 30px auto;
+    position: relative;
+}
+
+.first-photo img {
+    width: 100%;
+    margin: 10px auto;
+    border: 3px solid hsl(0, 0%, 78%);
+    border-radius: 2%;
+}
+
+.rules-div {
+    margin-top: 76px;
+    position: absolute;
+    background-color: #ECEBF0;
+	width: 50%;
+	height: auto;
+    opacity: 0.9;
+    z-index: 1;
+    border-radius: 2%;
+    text-align: center;    
+}
