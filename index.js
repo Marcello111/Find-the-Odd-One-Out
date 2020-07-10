@@ -71,31 +71,26 @@
 
     }) 
     
-    
 	birdCircle.addEventListener("click", function() {
-
 		birdImage.style.display ="none";
-        duckImage.style.display="block";
-        hiddenBtn.style.borderColor = "";
-        questionNumber.textContent= "2/3";
-        myStopFunction();
-        startTimer(fiveSeconds, display);	
+		duckImage.style.display="block";
+		hiddenBtn.style.borderColor = "";
+		questionNumber.textContent= "2/3";
+		myStopFunction();
+		startTimer(fiveSeconds, display);	
     })
     
 	hiddenBtn.addEventListener("click", function() {
-
 		duckImage.style.display ="none";
-        sheepImage.style.display="block";
-        hiddenBtn.style.borderColor = "";
-        questionNumber.textContent= "3/3";
-        myStopFunction();
-        startTimer(fiveSeconds, display);
-        	
+		sheepImage.style.display="block";
+		hiddenBtn.style.borderColor = "";
+		questionNumber.textContent= "3/3";
+		myStopFunction();
+		startTimer(fiveSeconds, display);	
     })
 
 	sheepCircle.addEventListener("click", function() {
-
-        location.replace("success.html");
+        	location.replace("success.html");
         	
     })
 
